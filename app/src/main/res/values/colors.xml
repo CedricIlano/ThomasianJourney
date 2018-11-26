@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#77ffffff</color>
+
     <color name="button_pressed">#ffffff</color>
     <color name="button_focused">#000000</color>
     <color name="ombre">#ffd700</color>
-    <color name="buttonColor">#D3D3D3</color>
-
+    <color name="colorPrimary">#ffd700</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#77ffffff</color>
+    <color name="buttonColor">#1cffffff</color>
+    <color name="dateButton">#ffffff</color>
+    <color name="dateColor">#d6b403</color>
+    <color name="bgColor">#ffef9c</color>
+    <color name="textColor">#f5686868</color>
+    <color name="buttColor">#f5bc00</color>
 </resources>

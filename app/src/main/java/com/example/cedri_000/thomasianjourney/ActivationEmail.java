@@ -18,7 +18,7 @@ public class ActivationEmail extends AppCompatActivity {
     }
 
     public void Verify (View v) {
-        Intent intent = new Intent(this, home.class);
+        Intent intent = new Intent(this, homepage.class);
         startActivity(intent);
     }
 

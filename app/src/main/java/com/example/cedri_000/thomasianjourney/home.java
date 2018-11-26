@@ -16,9 +16,4 @@ public class home extends AppCompatActivity {
 
     }
 
-    public void ViewEvents (View v) {
-        Intent intent = new Intent(this, ViewEv.class);
-        startActivity(intent);
-    }
-
 }
