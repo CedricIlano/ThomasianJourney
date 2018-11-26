@@ -23,9 +23,9 @@ public class SplashActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 
-        final TextView splash_text = (TextView) findViewById(R.id.splash_text);
+
         final ImageView splash_image = (ImageView) findViewById(R.id.splash_image);
-        final Animation animation_1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate);
+        final Animation animation_1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
         final Animation animation_2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
 
         animation_1.reset();
@@ -34,8 +34,6 @@ public class SplashActivity extends Activity{
         splash_image.clearAnimation();
         splash_image.startAnimation(animation_1);
 
-        splash_text.clearAnimation();
-        splash_text.startAnimation(animation_2);
 
 
         Thread thread = new Thread() {
@@ -43,7 +41,7 @@ public class SplashActivity extends Activity{
             public void run() {
                 try {
                     int waited = 0;
-                    while (waited < 1000) {
+                    while (waited < 2000) {
                         sleep(100);
                         waited += 100;
                     }

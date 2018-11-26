@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">ThomasianJourney</string>
 
+
+    <string name="title_activity_events_tab">EventsTab</string>
+    <string name="tab_text_1">EVENTS</string>
+    <string name="tab_text_2">UPCOMING</string>
+    <string name="tab_text_3">ATTENDED</string>
+    <string name="table_venue">Venue:</string>
+    <string name="table_date">Date:</string>\
+    <string name="table_time">Time:</string>
+    <string name="table_description">Description:</string>
+    <string name="table_point">Point:</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed_events">TabbedEvents</string>
+
 </resources>

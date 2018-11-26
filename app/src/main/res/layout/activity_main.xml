@@ -5,74 +5,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffd700"
-    tools:context=".MainActivity">
+    android:background="@drawable/ombre"
+    tools:context=".MainActivity"
+    >
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="150dp"
+        android:layout_width="277dp"
+        android:layout_height="285dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="29dp"
         android:contentDescription="TODO"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/tjlogo" />
+
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
+        android:layout_width="206dp"
+        android:layout_height="27dp"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="111dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="26dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_email"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:textColor="@android:color/background_light"
         android:textSize="16dp" />
 
+
     <EditText
         android:id="@+id/editMobileNumber"
-        android:layout_width="200dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:drawableLeft="@drawable/ic_action_mobile"
-        android:layout_marginTop="72dp"
+        android:layout_width="215dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
         android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_mobile"
         android:ems="10"
         android:hint="Mobile Number"
         android:inputType="textPersonName"
         android:textColor="@android:color/background_light"
         android:textSize="16dp" />
 
-    <android.support.v7.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/editTextEmail"
-        android:layout_alignParentBottom="true"
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/editMobileNumber"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="68dp"
-        android:layout_marginBottom="68dp"
-        app:cardBackgroundColor="@color/colorAccent"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="10dp" >
+        android:layout_marginTop="33dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="Register"
+        android:text="Register"
+        android:textColor="#000"
+        android:textStyle="bold" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <TextView
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Login"
-                android:textColor="#ffff"
-               android:layout_centerInParent="true"/>
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="74dp"
+        android:text="We are practicing single sign-on authentication, one account per device only"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="10dp" />
+
 </RelativeLayout>
 
 

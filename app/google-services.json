@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1080600380864",
+    "firebase_url": "https://thomasianjourney-a90a2.firebaseio.com",
+    "project_id": "thomasianjourney-a90a2",
+    "storage_bucket": "thomasianjourney-a90a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080600380864:android:5813aa6e82d4dc14",
+        "android_client_info": {
+          "package_name": "com.example.cedri_000.thomasianjourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080600380864-b7v3i4eska5pu01h0tp671fjh4httduf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA-zM3ttJ-WQc0W9NRAulP-FGnbEilfGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
